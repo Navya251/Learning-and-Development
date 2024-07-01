@@ -1,0 +1,77 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:5pxpx;
+}
+
+.Form{
+  background-color: beige;
+  display:inline-block;
+  padding-top: 20px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.val1{
+  margin-bottom: 30px;
+}
+
+.val2{
+  margin-bottom: 30px;
+}
+
+.val3{
+  margin-bottom: 30px;
+}
+
+.box2{
+  width:50px;
+}
+
+.box1{
+  width:50px;
+}
+
+.but{
+  margin-left: 20px;
+  background-color: rgb(137, 145, 153);
+  color: aliceblue;
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  transition: background-color 0.3s ease;
+  border-radius: 3px;
+}
+
+.but:hover{
+
+  background-color: aliceblue;
+  color:  rgb(115, 122, 129);
+  cursor:pointer;
+
+}
+
+.but:active{
+
+  border-width: 1px;
+  border-color:rgb(115, 122, 129); 
+  border-style: solid;
+
+}
+
+.res{
+  background-color: rgb(190, 205, 193);
+  display:inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
